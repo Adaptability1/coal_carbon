@@ -4,8 +4,8 @@
 Replace your_path with the absolute path to your local copy of the repository
 
 ## Directory Structure
-Run the main analysis (all code for the main text): $path/data/main.do
-Run the supplementary analysis (all code for the Supplementary Information):$path/data/si.do
+- Run the main analysis (all code for the main text): $path/data/main.do
+- Run the supplementary analysis (all code for the Supplementary Information):$path/data/si.do
 
 ## Dependencies
 - Stata 17
