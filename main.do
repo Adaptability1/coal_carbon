@@ -208,7 +208,7 @@ graph twoway (rspike max95 min95 n if poor==0, fcolor("0 0 210") lcolor("0 0 210
 (rspike max95 min95 n if poor==1, fcolor("213 0 0") lcolor("213 0 0")) ///
 (scatter estimate n if poor==1, mcolor("213 0 0") mlcolor("213 0 0") msymbol(circle) msize(1.2)) ///
 ,scheme(plotplain) ///
-xlab(1.5 "First"  4.5 "Second" 7.5 "Third" 10.4 "Forth" , labsize(*1.2) labcolor(black) axis(1) nogrid) ///
+xlab(1.5 "Spring"  4.5 "Summer" 7.5 "Autumn" 10.4 "Winter" , labsize(*1.2) labcolor(black) axis(1) nogrid) ///
 xscale(range(0 12)) ///
 ylabel(-0.04 "-0.04"   -0.02 "-0.02"   -0.0 "0"  0.02 "0.02"  , labsize(*1.2) nogrid) ///
 yline(0,lp(shortdash) lcolor(gs12) lwidth(middle)) ///
